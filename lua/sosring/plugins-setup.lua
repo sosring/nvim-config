@@ -37,7 +37,7 @@ return packer.startup(function(use)
  use('preservim/nerdtree') -- nerdTree
  use('glepnir/dashboard-nvim')
  use('windwp/nvim-autopairs')
- use('nvim-tree/nvim-web-devicons') 
+
  use('nvim-lualine/lualine.nvim') -- status line
  use ("akinsho/toggleterm.nvim") -- toggle terminal
 

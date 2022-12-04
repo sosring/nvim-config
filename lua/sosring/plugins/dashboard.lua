@@ -31,7 +31,7 @@ db.custom_center = {
     {
     icon = '  ',
     desc = 'Config                                ',
-    action = 'edit ~/.config/nvim/init.lua',
+    action = 'edit ~/.config/nvim/.',
     },
     {
     icon = '  ',
