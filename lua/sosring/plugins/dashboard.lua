@@ -28,18 +28,9 @@ db.custom_header = {
 }
 
 db.custom_center = {
-   {
-    icon = '  ',
-    desc = 'kitty Config                           ',
-    action ='edit ~/.config/kitty/kitty.conf'},
     {
     icon = '  ',
-    desc = 'i3 Config                              ',
-    action =  'edit ~/.config/i3/config',
-    },
-    {
-    icon = '  ',
-    desc = 'Nvim Config                            ',
+    desc = 'Config                                ',
     action = 'edit ~/.config/nvim/init.lua',
     },
     {
