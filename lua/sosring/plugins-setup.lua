@@ -33,14 +33,13 @@ return packer.startup(function(use)
  use("christoomey/vim-tmux-navigator")
  use("szw/vim-maximizer") -- maximizes and restores current window
  use("vim-scripts/ReplaceWithRegister")
- use('mattn/emmet-vim')
+ use('mattn/emmet-vim') -- emmet
  use('preservim/nerdtree') -- nerdTree
  use('glepnir/dashboard-nvim')
  use('windwp/nvim-autopairs')
- use('nvim-tree/nvim-web-devicons')
- 
- -- status line
- use('nvim-lualine/lualine.nvim')
+ use('nvim-tree/nvim-web-devicons') 
+ use('nvim-lualine/lualine.nvim') -- status line
+ use ("akinsho/toggleterm.nvim") -- toggle terminal
 
   if packer_bootstrap then
     require('packer').sync()

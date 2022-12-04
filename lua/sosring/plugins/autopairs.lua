@@ -1,10 +1,11 @@
-require('nvim-autopairs').setup({
-  check_ts = true
-})
+local status, autopairs = pcall(require, "nvim-autopairs")
 
-local cmp_autopairs = require('nvim-autopairs.completion.cmp')
-local cmp = require('cmp')
-cmp.event:on(
-  'confirm_done',
-  cmp_autopairs.on_confirm_done()
-)
+if not status then
+	return
+end
+
+autopairs.setup({
+  fast_wrap = {
+    chars = { '{', '[', '(', '"', "'", "`" },
+  },
+})
