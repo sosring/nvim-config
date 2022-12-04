@@ -30,7 +30,7 @@ db.custom_header = {
 db.custom_center = {
     {
     icon = '  ',
-    desc = 'Config                                ',
+    desc = 'Config                                 ',
     action = 'edit ~/.config/nvim/.',
     },
     {
@@ -41,7 +41,7 @@ db.custom_center = {
     {
     icon = '  ',
     desc = 'New File                               ',
-    action = 'e',
+    action = 'e rename.js',
     },
 }
 

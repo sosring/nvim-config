@@ -25,3 +25,7 @@ map('n', '<leader>-', '<C-x>')
 
 map('n', '<leader>m', ':MaximizerToggle<CR>')
 map('n', '<leader>f', ':NERDTreeToggle<CR>')
+
+-- toggle Term
+
+map('n', '<leader>t', ':ToggleTerm<CR>')
