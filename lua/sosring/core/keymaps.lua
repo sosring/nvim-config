@@ -22,10 +22,12 @@ map('n', '<leader>-', '<C-x>')
 -- plugin keymaps
 
 -- vim maximizer
+map('n', '<leader>m', ':MaximizerToggle<CR>') 
 
-map('n', '<leader>m', ':MaximizerToggle<CR>')
-map('n', '<leader>f', ':NERDTreeToggle<CR>')
+-- NerdTree
+map('n', '<leader>f', ':NERDTreeToggle<CR>') 
 
 -- toggle Term
+map('n', '<leader>t', ':ToggleTerm<CR>') 
 
-map('n', '<leader>t', ':ToggleTerm<CR>')
+map('n', '<leader>s', ':Telescope<CR>') 

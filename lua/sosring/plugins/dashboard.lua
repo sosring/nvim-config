@@ -35,8 +35,8 @@ db.custom_center = {
     },
     {
     icon = '  ',
-    desc = 'Terminal                               ',
-    action = 'terminal',
+    desc = 'Files                                  ',
+    action = 'NERDTreeToggle',
     },
     {
     icon = '  ',
@@ -45,4 +45,4 @@ db.custom_center = {
     },
 }
 
-db.custom_footer = {'Deez nuts!'}
+db.custom_footer = {'Sauce my nuts!'}
